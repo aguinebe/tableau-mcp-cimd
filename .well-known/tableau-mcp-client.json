@@ -1,7 +1,10 @@
 {
   "client_id": "https://raw.githubusercontent.com/aguinebe/tableau-mcp-cimd/main/.well-known/tableau-mcp-client.json",
   "client_name": "Agentic Framework (Dev)",
-  "redirect_uris": ["http://localhost:3001/api/tableau/auth/callback"],
+  "redirect_uris": [
+    "http://localhost:3001/api/tableau/auth/callback",
+    "https://tableau-agent-workbench-e764e18b7c34.magnolia-virginia.herokuapp-internal.com/api/tableau/auth/callback"
+  ],
   "response_types": ["code"],
   "grant_types": ["authorization_code"],
   "token_endpoint_auth_method": "none"
