@@ -1,0 +1,8 @@
+{
+  "client_id": "PLACEHOLDER",
+  "client_name": "Agentic Framework (Dev)",
+  "redirect_uris": ["http://localhost:3001/api/tableau/auth/callback"],
+  "response_types": ["code"],
+  "grant_types": ["authorization_code"],
+  "token_endpoint_auth_method": "none"
+}
