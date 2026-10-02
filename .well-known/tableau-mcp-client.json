@@ -1,5 +1,5 @@
 {
-  "client_id": "PLACEHOLDER",
+  "client_id": "https://raw.githubusercontent.com/aguinebe/tableau-mcp-cimd/main/.well-known/tableau-mcp-client.json",
   "client_name": "Agentic Framework (Dev)",
   "redirect_uris": ["http://localhost:3001/api/tableau/auth/callback"],
   "response_types": ["code"],
